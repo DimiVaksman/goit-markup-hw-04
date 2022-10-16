@@ -169,31 +169,22 @@ span {
   list-style-type: none;
 }
 
-.mail-header::before{
-  content: '';
-  display: inline-block;
-width: 16px;
-height: 12px;
-object-fit:cover;
-  background-image: url(../image/envelope.svg);
-  margin-right: 10px;
-  
-}
-
-.tel-header::before{
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 16px;
-  background-image: url(../image/smartphone.svg);
-  margin-right: 10px;
-  
-}
-
 .header-addres:hover,
 .header-addres:focus {
   color: var(--blue-color);
 }
+
+.icon-header{
+  margin-right: 10px;
+  fill: #757575 ;
+}
+
+.icon-header:hover ,
+.icon-header:focus {
+
+  fill: var(--blue-color);
+}
+
 
 /* !!!!!!!!!!!!!!!!!!!MAIN!!!!!!!!!!!!!!! */
 
